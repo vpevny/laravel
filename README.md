@@ -2,4 +2,4 @@
 
 rozchodit laravel 10 + docker  - ✔
 
-sanctum 
+sanctum - in progress
