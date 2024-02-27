@@ -1,2 +1,5 @@
-# laravel
-my firs laravel project
+ laravel
+
+rozchodit laravel 10 + docker  - ✔
+
+sanctum 
