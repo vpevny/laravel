@@ -11,7 +11,12 @@ use Illuminate\Support\Facades\Hash;
 use Dotenv\Exception\ValidationException;
 
 class AuthController extends Controller
+
 {
+    public function __construct()
+    {
+        $this->middleware('auth:sanctum', ['except' => ['login', 'register']]);
+    }
     public function register(Request $request){
         try {
             $postFields = $request->validate([
